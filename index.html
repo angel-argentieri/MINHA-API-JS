@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafios API JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <h2>Usuários (Ex 2)</h2>
+        <div id="lista-usuarios"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>3 Posts (Ex 3)</h2>
+        <div id="posts-container" class="lado-a-lado"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Criar Novo Post (Ex 4)</h2>
+        <form id="form-post">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <textarea id="texto" placeholder="Texto do post" required></textarea>
+            <button type="submit">Adicionar Card</button>
+        </form>
+        <div id="cards"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Carregar Dados (Ex 5)</h2>
+        <button id="carregar">Carregar Dados da API</button>
+        <div id="container"></div>
+    </section>
+
+    <script src="api.js"></script>
+</body>
+</html>
